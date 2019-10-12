@@ -1,8 +1,6 @@
 package com.rtjvm.scala.oop.files
 
-/**
-  * Created by Daniel on 28-Oct-17.
-  */
+
 abstract class DirEntry(val parentPath: String, val name: String) {
 
   def path: String = {
