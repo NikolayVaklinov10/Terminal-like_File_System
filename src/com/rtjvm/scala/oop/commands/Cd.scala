@@ -5,9 +5,6 @@ import com.rtjvm.scala.oop.filesystem.State
 
 import scala.annotation.tailrec
 
-/**
-  * Created by Daniel on 29-Oct-17.
-  */
 class Cd(dir: String) extends Command {
 
   override def apply(state: State): State = {
